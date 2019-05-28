@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '~>2.4'
 
 # Rails (internacionalización)
-gem "rails", '~> 5.2.1'
+gem "rails", '~> 5.2.3'
 
 gem 'bootsnap', '>=1.1.0', require: false
 
@@ -82,27 +82,28 @@ gem "paperclip"
 gem "tzinfo"
 
 # Motor de SIVeL 2
-gem 'sip', git: "https://github.com/pasosdeJesus/sip.git"
+gem 'sip', git: "https://github.com/pasosdeJesus/sip.git", branch: :rails5
 #gem 'sip', path: '../sip'
 
 # Motor para manejar archivos como nube y plantillas
-gem 'heb412_gen', git: 'https://github.com/pasosdeJesus/heb412_gen.git'
+gem 'heb412_gen', git: 'https://github.com/pasosdeJesus/heb412_gen.git', branch: :rails5
 #gem 'heb412_gen', path: '../heb412_gen/'
 
 # Motor para formularios
-gem 'mr519_gen', git: 'https://github.com/pasosdeJesus/mr519_gen.git'
+gem 'mr519_gen', git: 'https://github.com/pasosdeJesus/mr519_gen.git', branch: :rails5
 #gem 'mr519_gen', path: '../mr519_gen/'
 
 
 # Motor sivel2_gen
-gem 'sivel2_gen', git: "https://github.com/pasosdeJesus/sivel2_gen.git"
+gem 'sivel2_gen', git: "https://github.com/pasosdeJesus/sivel2_gen.git", branch: :rails5
 #gem "sivel2_gen", path: '../sivel2_gen'
 
 # Motor cor1440_gen
-gem 'cor1440_gen', git: "https://github.com/pasosdeJesus/cor1440_gen.git"
+gem 'cor1440_gen', git: "https://github.com/pasosdeJesus/cor1440_gen.git", branch: :rails5
 #gem 'cor1440_gen', path: '../cor1440_gen'    
 
-gem 'chosen-rails'
+gem 'chosen-rails', git: 'https://github.com/vtamara/chosen-rails.git', branch: 'several-fixes'
+
 gem 'rspreadsheet'
 gem 'libxml-ruby'
 
