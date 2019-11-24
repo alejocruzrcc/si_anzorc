@@ -33,7 +33,8 @@ gem 'devise-i18n'
 gem 'font-awesome-rails'
 
 # Motor para manejar archivos como nube y plantillas
-gem 'heb412_gen', git: 'https://github.com/pasosdeJesus/heb412_gen.git'
+gem 'heb412_gen', git: 'https://github.com/pasosdeJesus/heb412_gen.git',
+  branch: :sinbs4
 #gem 'heb412_gen', path: '../heb412_gen/'
 
 gem 'jbuilder' # API JSON facil. Ver: https://github.com/rails/jbuilder
@@ -45,7 +46,8 @@ gem 'jquery-ui-rails'
 gem 'libxml-ruby'
 
 # Motor para formularios
-gem 'mr519_gen', git: 'https://github.com/pasosdeJesus/mr519_gen.git'
+gem 'mr519_gen', git: 'https://github.com/pasosdeJesus/mr519_gen.git',
+  branch: :sinbs4
 #gem 'mr519_gen', path: '../mr519_gen/'
 
 gem 'odf-report' # Genera ODT
@@ -79,11 +81,12 @@ gem 'sass' # CSS
 gem 'simple_form' # Formularios simples 
 
 # Motor de SIVeL 2
-gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git'
+gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git', branch: 'r2.0b6'
 #gem 'sip', path: '../sip'
 
 # Motor sivel2_gen
-gem 'sivel2_gen', git: 'https://github.com/pasosdeJesus/sivel2_gen.git'
+gem 'sivel2_gen', git: 'https://github.com/pasosdeJesus/sivel2_gen.git',
+  branch: :sinbs4
 #gem 'sivel2_gen', path: '../sivel2_gen'
 
 gem 'tiny-color-rails'
